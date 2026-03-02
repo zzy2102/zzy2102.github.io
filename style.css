@@ -1,0 +1,29 @@
+/* 这是注释：给body（网页整体）设置样式 */
+body {
+    background-color: #f0f8ff; /* 网页背景色：浅天蓝 */
+    text-align: center;        /* 所有文字居中 */
+    font-size: 16px;           /* 文字大小 */
+    margin: 0;                 /* 去掉网页默认边距 */
+    padding-top: 50px;         /* 内容距离顶部50像素 */
+}
+
+/* 给h1（标题）设置样式 */
+h1 {
+    color: #2196F3; /* 标题颜色：蓝色 */
+    font-family: 微软雅黑; /* 字体 */
+}
+
+/* 给按钮设置样式 */
+button {
+    background-color: #2196F3; /* 按钮背景色 */
+    color: white;              /* 按钮文字白色 */
+    padding: 10px 20px;        /* 按钮内边距（上下10，左右20） */
+    border: none;              /* 去掉按钮默认边框 */
+    border-radius: 5px;        /* 按钮圆角 */
+    cursor: pointer;           /* 鼠标移上去变手型 */
+}
+
+/* 鼠标悬浮在按钮上的样式（交互效果） */
+button:hover {
+    background-color: #1976D2; /* 背景色加深 */
+}
